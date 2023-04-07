@@ -1,11 +1,11 @@
 body{font-family: 'Poppins', sans-serif;}
 h1{
-    font-size: 50px;
+    font-size: 40px;
 }
 .orange{
     color:orangered;
 }
-section{
+.flexible-container{
     display: flex;
     margin-bottom: 100px;
 }
@@ -24,4 +24,18 @@ section{
     text-decoration: none;
     font-weight: 700;
 
+}
+.developer-area{
+    width: 50%;
+    margin-left: 5%;
+    margin-right: 5%;
+    box-shadow: 10px 10px 40px gray;
+    padding-left: 20px;
+    border-radius: 5px;
+    border-left: 5px solid;
+    border-image: linear-gradient(pink cyan);
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
 }
